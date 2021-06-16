@@ -14,7 +14,7 @@ export default gql`
 
   type HistoryDoc {
     _id: String
-    userID: String
+    exciteID: String
     title: String
     image: String
     description: String
@@ -22,7 +22,7 @@ export default gql`
   }
 
   input IHistoryInput {
-    userID: String!
+    exciteID: String!
     title: String!
     image: String!
     description: String
@@ -30,7 +30,7 @@ export default gql`
 
   input IHistoryEdit {
     _id: String!
-    userID: String!
+    exciteID: String!
     title: String
     image: String
     description: String

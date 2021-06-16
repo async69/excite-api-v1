@@ -15,6 +15,7 @@ export default gql`
   type ReviewDoc {
     _id: String
     userID: String
+    exciteID: String
     content: String
     comments: [String]
     error: ErrorType
@@ -22,16 +23,16 @@ export default gql`
 
   input IReviewInput {
     userID: String!
+    exciteID: String!
     content: String!
     rating: Float!
-    exciteID: String!
   }
 
   input IReviewEdit {
     _id: String!
     userID: String
+    exciteID: String
     content: String
     rating: Float
-    exciteID: String
   }
 `

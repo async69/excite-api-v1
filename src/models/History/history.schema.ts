@@ -1,7 +1,7 @@
 import { Schema } from "mongoose"
 
 const History = new Schema({
-  userID: {
+  exciteID: {
     type: String, unique: false
   },
   title: {

@@ -4,7 +4,7 @@ import { ErrorType, IUserID } from "../../constants/interfaces"
 export { Query, IUserID }
 
 export interface IHistory {
-  userID: string
+  exciteID: string
   title: string
   image: string
   description: string
@@ -18,7 +18,7 @@ export interface IHistoryDoc extends IHistory {
 }
 
 export interface IHistoryInput {
-  userID: string
+  exciteID: string
   title: string
   image: string
   description: string
